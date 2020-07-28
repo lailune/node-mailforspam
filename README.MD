@@ -1,6 +1,6 @@
 # Mail for Spam Node.js module
 
-Provide MailForSpam.com functionality for you Node.js powered applications.
+Provide [MailForSpam.com](MailForSpam.com) functionality for you Node.js powered applications.
 
 If you want make applications which wants to retrieve emails with some verification codes or links or gets some external notifications from email you can use this module with random account.
 
