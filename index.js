@@ -82,7 +82,10 @@ module.exports = class Mailforspam {
         let body = await (await fetch(`${MAILFORSPAM_BASE}/${this.account}/${id}`)).text();
         let $ = cheerio.load(body);
 
-        return $('#messagebody');
+        $('.letter').find('table.vertical').remove();
+
+
+        return $('.letter');
     }
 
     /**
